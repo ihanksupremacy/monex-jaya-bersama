@@ -1,0 +1,186 @@
+body {
+    margin: 0%;
+}
+
+header {
+    background: #d9d9d9;
+    height: auto; /* Setengah dari tinggi sebelumnya */
+
+    margin: 0%;
+    border-radius: 0 0 100% 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.text {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+}
+.text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3vw;
+    text-align: center;
+}
+.text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+    text-align: left;
+}
+.text a {
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 2% 4%; /* Menggunakan persentase untuk padding */
+    border-radius: 1rem;
+    font-size: 1.5vw; /* Menggunakan persentase untuk ukuran font */
+}
+
+header img {
+    margin-right: 10px;
+    max-width: 100%;
+    /* width: 100vw; */
+    height: auto;
+}
+
+@media screen and (max-width: 1251px) {
+    header img {
+        max-width: 50%;
+    }
+    .text a {
+        padding: 1% 2%;
+    }
+}
+.isi {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+    /* margin: 10px 100px 10px 100px;  */
+    margin: 1vw 4vw 1vw 4vw;
+    padding: 2%;
+}
+.card h1 {
+    font-size: 2vw;
+}
+.card img {
+    width: 5vw;
+}
+.card p {
+    font-size: 1vw;
+}
+@media (max-width: 960px) {
+    .cards-container {
+        max-width: 600px; /* Mengatur lebar maksimum kontainer pada layar yang lebih kecil */
+    }
+}
+.pilihan {
+    text-align: center;
+}
+.pilihan h1 {
+    font-size: 2vw;
+}
+.container-pilihan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pilihan-card {
+    background: #d9d9d9;
+    width: max-content;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 10px;
+}
+.pilihan-card h1 {
+    font-size: 2vw;
+}
+
+.pilihan-card img {
+    max-width: 50vw;
+    height: auto;
+}
+.data-pilihan a {
+    text-decoration: none;
+    padding: 1vw 1vw;
+    border-radius: 70px;
+    margin: 0.5vw;
+}
+.data-pilihan {
+    margin-bottom: 2vw;
+}
+
+.pilihan-card a {
+    color: black;
+    text-decoration: none;
+    background: white;
+
+    border-radius: 100px;
+    font-size: 1vw;
+}
+
+.pilihan-card a {
+    margin-top: 1000px;
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 4% 2%;
+    border-radius: 100px;
+    margin-top: 15px;
+    font-size: 1vw;
+}
+
+.pilihan-card .booking a {
+    color: black;
+}
+
+.galerimobil {
+    text-align: center;
+}
+.card-galeri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.card-galeri img {
+    width: 20vw;
+    height: auto;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #242424;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+}
+.popup p {
+    color: white;
+}
+.popup a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffc700;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

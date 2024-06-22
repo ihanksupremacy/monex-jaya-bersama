@@ -1,0 +1,86 @@
+.kontak {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-kontak {
+    background: #d9d9d9;
+    padding: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2vw;
+    width: 15vw;
+    height: 15vw;
+}
+
+.card-kontak a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+}
+
+.card-kontak p {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+}
+
+@media (max-width: 768px) {
+    .card-kontak a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 2.5vw;
+    }
+    .card-kontak p {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+}
+.kritik {
+    padding: 20px;
+    justify-content: center;
+}
+.kritik form input {
+    border: none;
+    background-color: #d9d9d9;
+    height: 2vw;
+    width: 30vw;
+    border-radius: 20px;
+    padding: 10px;
+}
+textarea {
+    border: none;
+    background-color: #d9d9d9;
+    height: 30vw;
+    width: 60vw;
+    border-radius: 20px;
+    padding: 20px;
+}
+button {
+    background-color: #ffc700;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.galerimobil {
+    text-align: center;
+}
+.card-galeri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.card-galeri img {
+    width: 20vw;
+    height: auto;
+}
